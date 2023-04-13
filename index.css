@@ -1,0 +1,227 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(52, 52, 52);
+}
+.nav{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 0 0 11px 11px;
+    background-color: rgb(36, 36, 36) ;
+    box-shadow: 3px 1px 5px cyan;
+    position: relative;
+    padding:0.5rem 0;
+}
+.menu{
+    position: absolute;
+    top:0px;
+    right: 30px;
+    display: flex;
+    flex-direction: column;
+    display: none;
+    cursor: pointer;
+    color: aqua;
+    font-weight: 600;
+    font-size: 3rem;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.line{
+    width: 40px;
+    height: 3px;
+    margin-top: 13px;
+    background-color: aqua;
+}
+.logo{
+    width: 20%;
+    margin: auto 20px;
+    display: flex;
+}
+.logo img{
+    height: 50px;
+}
+.navbar{
+    width: 40%;
+    margin: auto 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.navbar a{
+    color: rgb(38, 226, 226);
+    text-decoration: none;
+    font-size: 1.3rem;
+    font-weight: 700;
+    margin: 0 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.navbar a:hover{
+    color: rgb(1, 138, 169);
+    text-decoration: none;
+    font-size: 1.3rem;
+    font-weight: 900;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 3rem 0;
+}
+.container-fluid{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 70%;
+}
+.card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    background-color: rgb(36, 36, 36);
+    height: auto;
+    border-radius: 15px;
+    box-shadow: 3px 3px 5px cyan;
+    gap: 20px;
+    padding: 2rem 0;
+}
+.grid-1{
+    width: 40%;
+    color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: center;
+}
+
+.footer .grid-1 div form{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items:start;
+}
+.grid-1 div{
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    margin: .5rem 0;
+}
+.footer .grid-1 div form .button{
+    width: 4rem;
+    height: 2rem;
+    margin-top: 1rem;
+    background-color: aqua;
+    color: white;
+    outline: rgb(252, 255, 255);
+}
+.footer .grid-1 div form input{
+    width: 10rem;
+    height: 1.5rem;
+    margin-top: 1rem;
+    outline: none;
+    background-color: rgb(77, 76, 76);
+    padding: 2px;
+}
+.grid-1 div div {
+    display: flex;
+    flex-direction: row;
+}
+.grid-1 div div a{
+    width: 40px;
+    height: 40px;
+    border: 2px solid white;
+    border-radius: 50%;
+    margin-right: 0.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.grid-1 div div img {
+    width: 30px;
+}
+.grid-1 div a{
+    text-decoration: none;
+    color: aliceblue;
+}
+.grid-1 h3{
+    color: aqua;
+}
+.grid-1 hr{
+    outline: cyan;
+    width: 50%;
+}
+
+.grid-2{
+    width: 50%;
+}
+.grid-2 img{
+    width: 100%;
+    max-width: 40rem ;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: rgb(34, 33, 33);
+    padding-top: 3rem;
+    padding-bottom: 5rem;
+}
+.footer-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: rgb(49, 48, 48);
+    padding: 1.5rem 0;
+    
+}
+
+
+@media only screen and (max-width: 1000px){
+    .menu{
+        display: block;
+    }
+    .navbar{
+        width: 40%;
+        margin: 30px 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 30rem;
+    }
+    .nav{
+        flex-direction: column;
+    }
+    .logo{
+        width: 100%;
+        margin: auto 5px;
+        display: flex;
+        justify-content: left;
+    }
+    .hide{
+        display: none;
+    }
+    .card{
+        flex-direction: column;
+    }
+    .container-fluid{
+        max-width: 100%;
+    }
+    .grid-1, .grid-2{
+        width: 90%;
+    }
+    .footer,.footer-1{
+        flex-direction: column;
+    }
+    .grid-1{
+        margin-bottom: 1rem;
+    }
+    
+}
