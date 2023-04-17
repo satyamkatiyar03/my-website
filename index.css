@@ -293,4 +293,7 @@ body{
     .container1  .card-body{
         flex-direction: column;
     }
+    .container video{
+        width: 100%;
+    }
 }
