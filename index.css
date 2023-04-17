@@ -106,56 +106,6 @@ body{
     width: 100%;
     max-width: 40rem ;
 }
-@media only screen and (max-width: 1000px){
-    .menu{
-        display: block;
-    }
-    .navbar{
-        width: 40%;
-        margin: 30px 20px;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        height: 30rem;
-    }
-    .nav{
-        flex-direction: column;
-    }
-    .logo{
-        width: 100%;
-        margin: auto 5px;
-        display: flex;
-        justify-content: left;
-    }
-    .hide{
-        display: none;
-    }
-    .card{
-        flex-direction: column;
-    }
-    .container-fluid{
-        max-width: 100%;
-    }
-    .grid-1, .grid-2{
-        width: 90%;
-    }
-    .footer,.footer-1{
-        flex-direction: column;
-    }
-    .grid-1{
-        margin-bottom: 1rem;
-    }
-    .container1  .card-body{
-        flex-direction: column;
-    }
-    .box{
-        height: 400rem;
-    }
-}
-
-
-
-
 .footer .grid-1 div form{
     display: flex;
     flex-direction: column;
@@ -298,3 +248,68 @@ body{
     height: 30rem;
     width: 100%;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 1000px){
+    .menu{
+        display: block;
+    }
+    .navbar{
+        width: 40%;
+        margin: 30px 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 30rem;
+    }
+    .nav{
+        flex-direction: column;
+    }
+    .logo{
+        width: 100%;
+        margin: auto 5px;
+        display: flex;
+        justify-content: left;
+    }
+    .hide{
+        display: none;
+    }
+    .card{
+        flex-direction: column;
+    }
+    .container-fluid{
+        max-width: 100%;
+    }
+    .grid-1, .grid-2{
+        width: 90%;
+    }
+    .footer,.footer-1{
+        flex-direction: column;
+    }
+    .grid-1{
+        margin-bottom: 1rem;
+    }
+    .container1  .card-body{
+        flex-direction: column;
+    }
+    .box{
+        height: 400rem;
+    }
+}
+
+
+
+
