@@ -211,7 +211,7 @@ body{
 }
 .container1  .card-body .card1{
     width: 15rem;
-    height: 15rem;
+    height: 12rem;
     background-color: rgb(252, 252, 252);
     display: flex;
     justify-content: center;
@@ -247,8 +247,17 @@ body{
     color: aliceblue;
 }
 .box{
-    height: 30rem;
+    height: 15rem;
+    position: relative;
 }
+.box div{
+    position: absolute;
+    top: 11rem;
+    color: aliceblue;
+    text-align: center;
+}
+
+
 
 
 @media only screen and (max-width: 1000px){
@@ -295,5 +304,16 @@ body{
     }
     .container video{
         width: 100%;
+    }
+    .container1  .card-body .card1{
+        width: 15rem;
+        height: 11.5rem;
+    }
+    .box{
+        height: 55rem;
+    }
+    .box div{
+        position: absolute;
+        top:52rem;
     }
 }
