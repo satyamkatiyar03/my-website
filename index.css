@@ -1,9 +1,11 @@
 *{
     margin: 0;
     padding: 0;
+    scroll-behavior: smooth;
 }
 body{
     background-color: rgb(52, 52, 52);
+    
 }
 .nav{
     width: 100%;
@@ -255,6 +257,19 @@ body{
     top: 11rem;
     color: aliceblue;
     text-align: center;
+}
+.container2{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 5rem;
+}
+.ser{
+    max-width: 70rem;
+    justify-content:space-evenly;
+    color: aliceblue;
+    padding: 20px;
 }
 
 
